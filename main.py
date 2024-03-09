@@ -6,4 +6,4 @@ bot = telebot.TeleBot('6456136259:AAElOCKMQPdWSveu67w_4vdOiq1j5dIcgnA')
 def main(massage):  #def это функция
   bot.send_message(massage.chat.id, 'Hellow')
 
-bot.polling(non_stop=True)
+bot.polling(non_stop=True) #не прерывность программы
